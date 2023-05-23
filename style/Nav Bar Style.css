@@ -1,0 +1,206 @@
+header .navBar{
+    display: flex;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    background-color:  #3D464D;
+    position: relative;
+    
+}
+
+header .navBar .categories {
+  display: flex;
+  align-items: center;
+  background-color: #FFD333;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 65px;
+  min-width: 300px;
+  max-width: 300px;
+  align-content: center;
+  position: relative;
+    
+}
+
+#bar{
+    padding-right: 10px;
+    
+    
+
+}
+#arrow{
+    padding-left: 135px;
+    position: relative;
+    bottom: -2px;  
+    
+}
+
+header .navBar .categories label li {
+   
+ 
+width: 300px;
+padding-left: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+   
+    
+}
+
+
+
+header .navBar .categories label ul{
+   
+ 
+  list-style: none;  
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 300px;
+  max-width: 300px;                                  
+  width: max-content;
+  border: 1px solid  #F5F5F5;
+  margin: 0.125rem 0 0;
+  min-width: 10rem;
+  background-color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+   
+    
+}
+
+
+
+
+
+
+
+
+header .navBar .links{
+   
+   list-style: none;
+   display: flex;
+   padding-left: 40px;
+   align-items: center;
+   position: relative;
+   
+   
+     
+      
+  }
+
+  header .navBar .links li{
+   
+    margin-right: 15px;
+    
+      
+       
+   }
+
+   header .navBar .links li a{
+   
+    text-decoration: none;
+    color: #F5F5F5;
+    
+   
+       
+       
+   }
+
+   header .navBar .links li .pages ul{
+   
+   list-style: none;
+   display: none;
+   position: absolute;
+   top: 100%;
+   right:  10px;
+   background-color: #FFD333;
+   z-index: 2;
+  
+   
+    
+   }
+
+   header .navBar .links li .pages ul li{
+   
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+     
+    }
+
+  
+
+
+
+   header .navBar .shape{
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    padding-right: var(--page-padding);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+    
+      
+   }
+
+   header .navBar .shape i  {
+   padding-right: 5px;
+   padding-left: 4px;
+   color: yellow;
+  
+     
+       
+   }
+
+   header .navBar .shape  span  {
+    
+   border:2px solid black;
+   border-radius: 50%;
+   border: 1px solid #FFFFFF;
+   color: #000;
+   text-align: center;
+   color: #FFFFFF;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+  
+      
+        
+    }
+
+
+
+
+
+
+
+
+
+header .navBar .links li:hover a{
+
+ color: yellow;
+ 
+   
+    
+}
+
+header .navBar .categories label:hover  ul{
+
+  display: block;
+  
+    
+     
+ }
+
+ header .navBar .links li .pages:hover ul{
+   
+display: block;
+
+
+
+   
+  }

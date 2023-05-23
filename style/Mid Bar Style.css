@@ -1,0 +1,105 @@
+
+
+
+header .midBar{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    position: relative;
+    background-color: #FFFFFF;
+    
+    
+}
+
+header .midBar .linkAsLogo {
+
+   display: flex; 
+   background-color: #FFFFFF;
+   max-width: 33.33333%;
+   position: relative;
+   width: 100%;
+   
+   
+   
+    
+}
+
+header .midBar .linkAsLogo a {
+    text-decoration: none;
+
+ 
+    
+       
+ }
+
+header .midBar .linkAsLogo a .multi{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FFD333;
+    background-color:#3D464D; 
+    width: 50%;
+   
+    
+    
+}
+
+header .midBar .linkAsLogo a .shop{
+    padding-left: 15px; 
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #3D464D;
+    background-color:  #FFD333;
+    width: 50%;
+    
+}
+
+header .midBar .searchField {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    
+   
+  
+  
+    
+}
+
+header .midBar .searchField .inputField{
+ padding: 15px; 
+ border: 2px solid #ced4da;
+ outline: none;
+ 
+    
+}
+header .midBar .searchField .inputField #searchField{
+  
+   
+  
+    width: 300px;
+    outline: none;
+    border: none;
+    
+       
+   }
+
+header .midBar .searchField .iconField{
+    padding: 15px;  
+    border: 2px solid #ced4da;
+    color: #FFD333;
+    
+}
+
+header .midBar .serviceContact{
+    position: absolute;
+    right: 0;
+    padding-right: var(--page-padding);
+    text-align: center;
+    
+    
+}
+

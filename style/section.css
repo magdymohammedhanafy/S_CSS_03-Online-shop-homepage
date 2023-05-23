@@ -1,0 +1,241 @@
+section .shopNow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 15px 20px;
+    padding-top: 20px;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+   
+}
+
+section .shopNow .sec1 {
+  position: relative;
+  grid-column: span 2;  
+  grid-row: span 2; 
+  
+}
+section .shopNow .sec2 {
+    position: relative;
+    grid-column: span 1;  
+    grid-row: span 1;
+    overflow: hidden;
+   
+}
+section .shopNow .sec3 {
+    position: relative;
+    grid-column: span 1;  
+    grid-row: span 1;
+    overflow: hidden;
+}
+
+
+
+section .shopNow .sec1 img {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+  section .shopNow .sec2 img {
+    height: 100%;
+    width: 100%;
+    transition: var(--main-effect);
+    
+}
+
+
+  section .shopNow .sec3 img {
+    
+   height: 100%; 
+   width: 100%;
+   transition: var(--main-effect);
+   
+}
+
+section .shopNow .sec2:hover img
+{
+  transform: rotate(5deg) scale(1.1); 
+}
+
+section .shopNow .sec3:hover img
+{
+  transform: rotate(5deg) scale(1.1); 
+}
+
+
+
+
+ .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 70, 77, 0.5);
+    color: white;
+    column-gap: 10px;
+    padding: 30px;
+    z-index: 1;
+   
+}
+
+
+
+
+.text p,h5{
+    
+}
+
+.text button{
+    background-color: #FFD333;
+    border: none;
+    color:  #6C757D;;
+    padding: 10px;
+
+}
+
+section .service {
+
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding-left: var(--page-padding);
+   padding-right: var(--page-padding);
+   padding-top: 100px;
+}
+
+section .service div {
+    background-color: #fff;
+    color: #3D464D;;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   font-size: large;
+   font-weight: bold;
+   white-space: nowrap;
+  
+
+}
+
+section .service div i{
+   padding-right: 10px;
+   color: #FFD333;
+
+}
+
+section .service div h5{
+    font-size: 20px;
+    
+ }
+
+ section .categories {
+    padding-top: 100px;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    
+   
+    
+ }
+
+ section .categories .title {
+   position: relative;
+   margin-bottom: 20px;
+
+ }
+
+ section .categories .title h1 {
+    position: relative;
+    color: #3D464D;
+    background-color: #F5F5F5; 
+    width: fit-content;
+    font-size: xx-large;
+  }
+
+
+
+ section .categories .title::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 0;
+    border-top: 1px dashed #bec5cb;
+    z-index: -1;
+   
+    
+ }
+
+ section .categories .items
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 20px;
+    
+   
+}
+
+section .categories .items .item{
+    display: flex;
+    background-color: #fff;
+    cursor: pointer;
+    justify-content: flex-start;
+
+}
+
+section .categories .items .item .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+
+
+}
+
+section .categories .items .item .img img  {
+   
+   transition: var(--main-effect);
+ 
+}
+
+section .categories .items .item .img   {
+   
+    width: 100%;
+    overflow: hidden;
+  
+ }
+
+section .categories .items .item:hover .desc
+{
+    background-color: #FFD333; 
+    height: 100%;
+     
+    
+}
+
+section .categories .items .item:hover img
+{
+    transform: rotate(10deg) scale(1.1); 
+    
+    
+   
+}
+
+
+
+
+
+
