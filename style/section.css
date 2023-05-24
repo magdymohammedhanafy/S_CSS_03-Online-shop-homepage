@@ -56,12 +56,12 @@ section .shopNow .sec1 img {
 
 section .shopNow .sec2:hover img
 {
-  transform: rotate(5deg) scale(1.1); 
+  transform: rotate(5deg) scale(1.3); 
 }
 
 section .shopNow .sec3:hover img
 {
-  transform: rotate(5deg) scale(1.1); 
+  transform: rotate(5deg) scale(1.3); 
 }
 
 
@@ -213,7 +213,7 @@ section .categories .items .item .img img  {
 
 section .categories .items .item .img   {
    
-    width: 100%;
+    width: 200%;
     overflow: hidden;
   
  }
@@ -228,7 +228,7 @@ section .categories .items .item:hover .desc
 
 section .categories .items .item:hover img
 {
-    transform: rotate(10deg) scale(1.1); 
+    transform: rotate(3deg) scale(1.2);  
     
     
    
